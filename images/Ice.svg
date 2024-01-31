@@ -37,6 +37,17 @@
         stroke: #2d84b6;
         stroke-width: 12px;
       }
+
+#Ice:hover #ice-melt {
+        animation: shine-1 1s infinite linear; 
+        transform-origin: 60%;
+    }
+
+@keyframes shine-1 {
+  from{transform: scaleY(0);}
+  to{transform: scaleY(1);}
+    }
+
     </style>
   </defs>
   <g id="Ice">

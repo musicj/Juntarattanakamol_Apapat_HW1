@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 242.7 275.2">
+<svg id="snowflake-icon" data-name="snowflake-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 242.7 275.2">
   <defs>
     <style>
       .cls-1 {
@@ -25,7 +25,99 @@
         stroke: #8fc9ee;
         stroke-width: .5px;
       }
+
+
+
+<!-- small flake=>> -->
+
+svg:hover #second_snowflake {
+  transform-origin: center;
+  animation: rotate 3s linear infinite;
+
+}
+
+@keyframes rotate {
+  0% {
+        transform: rotate(0deg)  translate(0, 0);
+    }
+    100% {
+        transform: rotate(360deg)  translate(0,0);
+    }
+}
+
+svg:hover #snowcover2 {
+  transform-origin: center;
+  animation: rotate 3s linear infinite;
+
+}
+
+@keyframes rotate {
+  0% {
+        transform: rotate(0deg)  translate(0, 0);
+    }
+    100% {
+        transform: rotate(360deg)  translate(0,0);
+    }
+} 
+
+<!-- big flake -->
+<!-- 
+#main_snowflake:hover  {
+  transform-origin: center;
+  
+}
+
+svg:hover #main_snowflake {
+  transform-origin: center;
+  animation: rotate 3s linear infinite;
+
+}
+
+@keyframes rotate {
+  0% {
+        transform: rotate(0deg)  translate(0, 0);
+    }
+    100% {
+        transform: rotate(360deg)  translate(0,0);
+    }
+}
+
+svg:hover #snowcover1 {
+  transform-origin: center;
+  animation: rotate 3s linear infinite;
+
+}
+
+@keyframes rotate {
+  0% {
+        transform: rotate(0deg)  translate(0, 0);
+    }
+    100% {
+        transform: rotate(360deg)  translate(0,0);
+    }
+} -->
+
+
+
+
+#Snowflake {
+ width: 200px;
+}
+      
     </style>
+
+    <script>
+    const vectorGraphic = document.querySelector('#snowflake-icon');
+    console.log(vectorGraphic);
+
+    function logThisId() {
+    console.log(this);
+    console.log('you touched the', this.id);
+}
+
+    vectorGraphic.addEventListener('click', logThisId);
+    </script>
+
   </defs>
   <g id="Snowflake">
     <g id="main_snowflake">

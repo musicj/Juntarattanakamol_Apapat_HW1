@@ -28,7 +28,27 @@
       .cls-4 {
         fill: #fff;
       }
+
+#Bubble {
+  opacity: 1;
+}
+
+#Bubble:hover {
+    animation: fade 2s linear infinite;
+  }
+
+@keyframes fade {
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+
+
+
     </style>
+
   </defs>
   <g id="Bubble">
     <g id="main-bubble">
