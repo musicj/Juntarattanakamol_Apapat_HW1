@@ -29,6 +29,18 @@
       .cls-5 {
         fill: #b05d33;
       }
+
+
+#Raindeer:hover #eyes {
+        animation: shine-1 0.5s infinite linear; 
+        transform-origin: 170px 170px;
+    }
+
+@keyframes shine-1 {
+  from{transform: scaleY(1);}
+  to{transform: scaleY(0);}
+    }
+
     </style>
   </defs>
   <g id="Raindeer">

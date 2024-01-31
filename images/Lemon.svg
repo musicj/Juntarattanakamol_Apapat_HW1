@@ -17,6 +17,11 @@
       .cls-3 {
         fill: #f4f0c9;
       }
+
+#Lemon:hover #Fill-Lemon .cls-2 {
+  fill: orange;
+}
+
     </style>
   </defs>
   <g id="Lemon">
