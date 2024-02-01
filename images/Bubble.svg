@@ -49,6 +49,16 @@
 
     </style>
 
+<script>
+let thePath = document.querySelector("Bubble");
+
+function logMyId() {
+  console.log("Bubble");
+}
+
+document.addEventListener('click', logMyId);
+</script>
+
   </defs>
   <g id="Bubble">
     <g id="main-bubble">

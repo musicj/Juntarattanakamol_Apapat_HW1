@@ -42,6 +42,17 @@
     }
 
     </style>
+
+<script>
+let thePath = document.querySelector("Raindeer");
+
+function logMyId() {
+  console.log("Raindeer");
+}
+
+document.addEventListener('click', logMyId);
+</script>
+
   </defs>
   <g id="Raindeer">
     <g id="antler">
