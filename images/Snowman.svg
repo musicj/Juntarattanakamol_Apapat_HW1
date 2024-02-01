@@ -77,6 +77,17 @@ svg:hover #snowman {
 } 
 
     </style>
+
+<script>
+let thePath = document.querySelector("snowman");
+
+function logMyId() {
+  console.log("snowman");
+}
+
+document.addEventListener('click', logMyId);
+</script>
+
   </defs>
   <g id="snowman">
     <g id="main-snowman">

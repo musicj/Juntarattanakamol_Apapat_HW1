@@ -103,20 +103,18 @@ svg:hover #snowcover1 {
 #Snowflake {
  width: 200px;
 }
+
+</style>
       
-    </style>
+<script>
+let thePath = document.querySelector("Snowflake");
 
-    <script>
-    const vectorGraphic = document.querySelector('#snowflake-icon');
-    console.log(vectorGraphic);
-
-    function logThisId() {
-    console.log(this);
-    console.log('you touched the', this.id);
+function logMyId() {
+  console.log("Snowflake");
 }
 
-    vectorGraphic.addEventListener('click', logThisId);
-    </script>
+document.addEventListener('click', logMyId);
+</script>
 
   </defs>
   <g id="Snowflake">
