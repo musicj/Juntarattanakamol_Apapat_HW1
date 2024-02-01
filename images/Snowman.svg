@@ -50,16 +50,11 @@
 svg:hover #main-hat, #Hat {
   transform-origin: center;
   animation: bounce 0.5s infinite alternate;
-
 }
 
 @keyframes bounce {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(-100px);
-  }
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-50px);}
 }
 
 svg:hover #snowman {
